@@ -2,7 +2,6 @@
 
 # ABOUT ####
 
-# Select 'Run App' at the top right of the script window to use the app.  
 
 # LOAD PACKAGES --------
 
@@ -106,8 +105,7 @@ option.card <- card(
 
 # USER INTERFACE --------
 
-# The ui.R below defines the user interface for the CITES data processor Shiny App.
-# The navbarPage function builds the Shiny App as a navigable tool, with one tab providing an "Introduction" and the other the main Processor.
+# The ui.R below defines the user interface for TradeTidy: a CITES trade data formatting tool.
 
 ui <- page_fillable(
   
@@ -603,13 +601,12 @@ server <- function(input, output, session) {
       current_order[current_order %in% subset_cols] <- subset_cols
       values$DAT <- values$DAT[, current_order]
     
-    # Notification message  --------
-    # TBD
-    
       
     # Enable download button  --------
     enable("dat_download")
     
+    # Notification message  --------
+      
     showNotification( 
       paste("Data formatted successfully"), 
       duration = 3,
@@ -652,9 +649,7 @@ server <- function(input, output, session) {
     
   })
   
-  
-  
-  
+
   
 }
 
