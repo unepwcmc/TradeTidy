@@ -134,7 +134,7 @@ ui <- page_fillable(
        h6("4. Finally, select 'download formatted data'."),
         h6(HTML('Full details of term and unit conversions can be found in <a href="https://tradeview.cites.org/en/methods" target="_blank" rel="noopener noreferrer">CITES Wildlife TradeView</a>, 
                and the user guide for the CITES Trade Database can be found <a href="https://trade.cites.org/cites_trade_guidelines/en-CITES_Trade_Database_Guide.pdf" target="_blank" rel="noopener noreferrer">here</a>.')),
-       h6("Citation: UNEP-WCMC (2026). TradeTidy: a CITES trade data formatting tool. Version 1.0. [wcmc.io URL]."),
+       h6("Citation: UNEP-WCMC (2026). TradeTidy: a CITES trade data formatting tool. Version 1.0. https://wcmc.io/TradeTidy"),
        h6(em("The geographical designations employed and the presentation of material in the tool's outputs do not imply the expression of any opinion whatsoever on the part of the compilers concerning the legal status of any country, territory, city or area,
        or any of its authorities, or concerning the delimitation of its frontiers or boundaries."))
   ))
