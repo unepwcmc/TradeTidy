@@ -52,7 +52,7 @@ The user guide for the CITES Trade Database can be found [here](https://trade.ci
 
 **Citation**
 
-UNEP‑WCMC (2026). TradeTidy: a CITES trade data formatting tool. Version 1.0. \[wcmc.io URL].
+UNEP‑WCMC (2026). TradeTidy: a CITES trade data formatting tool. Version 1.0. https://wcmc.io/TradeTidy.
 
 
 
